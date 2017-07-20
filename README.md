@@ -12,7 +12,7 @@ MaxRects 算法的 Node.JS 实现。设计逻辑如下：
  * 提供一个简单的 web 界面的人工调试服务
 
 
-![Screenshot](//github.com/yi/node-max-rects-bin-pack/raw/master/public/screenshot01.jpg)
+![Screenshot](https://raw.githubusercontent.com/yi/node-max-rects-bin-pack/master/public/screenshot01.jpg)
 
 
 ## Install
