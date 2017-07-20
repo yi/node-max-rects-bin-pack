@@ -1,0 +1,51 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    title MaxRects
+    script(src='./jquery-2.0.3.min.js')
+    script(src='./raphael-min.js')
+    script(src='./main.js')
+  body.raphael
+    script.
+    button.btn.btn-primary(onclick='javascript:generate()') Generate
+    label
+      input#isContinue(type='checkbox', name='isContinue') 反复测试
+    strong 边距：
+    label
+      input#margin(type='radio', name='margin', value='0') 0
+    label
+      input#margin(type='radio', name='margin', value='1') 1
+    label
+      input#margin(type='radio', name='margin', value='2', checked='checked') 2
+    label
+      input#margin(type='radio', name='margin', value='4') 4
+    label
+      input#margin(type='radio', name='margin', value='5') 5
+    label
+      input#margin(type='radio', name='margin', value='9') 9
+    label
+      input#margin(type='radio', name='margin', value='27') 27
+    strong 内距：
+    label
+      input#padding(type='radio', name='padding', value='0', checked='checked') 0
+    label
+      input#padding(type='radio', name='padding', value='1') 1
+    label
+      input#padding(type='radio', name='padding', value='2') 2
+    label
+      input#padding(type='radio', name='padding', value='4') 4
+    label
+      input#padding(type='radio', name='padding', value='5') 5
+    label
+      input#padding(type='radio', name='padding', value='9') 9
+    label
+      input#padding(type='radio', name='padding', value='27') 27
+
+    p
+      span#input
+    p
+      span#output
+    p
+      span#aids
+    hr

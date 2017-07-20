@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>MaxRects</title>
+    <script src="./jquery-2.0.3.min.js"></script>
+    <script src="./raphael-min.js"></script>
+    <script src="./main.js"></script>
+    <!--<link href="./css/bootstrap.css" rel="stylesheet">-->
+  </head>
+  <body class="raphael" >
+
+    <button id="btnGenerate" class="btn btn-primary">Generate</button>
+
+    <label>
+      <input type="checkbox" name="isContinue"  id="isDrawRender"> 绘制示意图
+    </label>
+
+    <label>
+      <input type="checkbox" name="isContinue"  id="isContinue"> 反复测试
+    </label>
+
+    <label>
+      <input type="checkbox" name="isContinue"  id="isMulti"> 启用连续布局
+    </label>
+
+    边距 :
+    <label> <input type="radio" name="margin" id="margin" value="0">0 </label>
+    <label> <input type="radio" name="margin" id="margin" value="1">1 </label>
+    <label> <input type="radio" name="margin" id="margin" value="2" checked="checked">2 </label>
+    <label> <input type="radio" name="margin" id="margin" value="4">4 </label>
+    <label> <input type="radio" name="margin" id="margin" value="5">5 </label>
+    <label> <input type="radio" name="margin" id="margin" value="9">9 </label>
+    <label> <input type="radio" name="margin" id="margin" value="27">27 </label>
+    内距 :
+    <label> <input type="radio" name="padding" id="padding" value="0" checked="checked">0 </label>
+    <label> <input type="radio" name="padding" id="padding" value="1">1 </label>
+    <label> <input type="radio" name="padding" id="padding" value="2">2 </label>
+    <label> <input type="radio" name="padding" id="padding" value="4">4 </label>
+    <label> <input type="radio" name="padding" id="padding" value="5">5 </label>
+    <label> <input type="radio" name="padding" id="padding" value="9">9 </label>
+    <label> <input type="radio" name="padding" id="padding" value="27">27 </label>
+
+    <span id="input"></span>
+    <span id="output"></span>
+    <span id="aids"></span>
+    <hr>
+    <div id="details"></div>
+    <div id="canvases"></div>
+
+  </body>
+</html>
